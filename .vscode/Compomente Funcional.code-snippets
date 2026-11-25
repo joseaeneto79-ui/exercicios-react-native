@@ -1,0 +1,31 @@
+{
+
+	"Componente Funcional": {
+		"scope": "javascript",
+		"prefix": "compfunc",
+		"body": [
+			"import React from 'react';",
+			"import { Text } from 'react-native';",
+			"import Estile from './estilo';",
+			"",
+			"export default props => {",
+			"    return (",
+			"        <Text style={Estile.txtG}>",
+			"            $1",
+			"            </Text>",
+			"    )",
+			"}",	
+		],
+		"description": "Log output to console"
+	}
+	
+	// You can also restrict snippets to specific files using include/exclude patterns:
+	// "Test snippet": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "test",
+	// 	"body": "test('$1', () => {\n\t$0\n});",
+	// 	"include": ["**/*.test.ts", "*.spec.ts"],
+	// 	"exclude": ["**/temp/*.ts"],
+	// 	"description": "Insert test block"
+	// }
+}

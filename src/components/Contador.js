@@ -5,7 +5,7 @@ import Estilo from './estilo';
 export default ({ inicial = 0, passo = 1 }) => {
     // let numero = props.inicial;
     const [numero, setNumero] = useState(inicial);
-
+  
     const inc = () => {
         setNumero(numero + passo);
         console.warn(numero);
